@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'services' => 'pages#services' # creates services_path
   get 'team' => 'pages#team' # creates team_path
   get 'contact' => 'pages#contact' # creates contact_path
+  get 'pricing' => 'pages#pricing' # creates pricing_path
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
